@@ -8,7 +8,7 @@ document.querySelector("#book-list").addEventListener("click",brisi);
 
 function dodaj(e) {
     e.preventDefault();
-
+alert("marija");
     let podaci = UI.pokupiSaForme();
 
     if (podaci.title === "" || podaci.author === "" || podaci.isbn == "") {
